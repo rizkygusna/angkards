@@ -7,7 +7,7 @@
     <title>Angkards</title>
   </head>
   <body>
-    <h1>Angkards</h1>
+    <h1 translate="no">Angkards</h1>
     <div class="main-form">
       <form action="/cards.html" method="get" id="options-form">
         <p>Range of number</p>
@@ -22,6 +22,15 @@
         <div>
           <label for="amount">Amount of cards</label>
           <input type="number" name="amount" id="amount" min="5" max="50" value="5" />
+        </div>
+        <p>Answer types</p>
+        <div>
+          <input type="radio" id="hiragana" name="answer" value="hiragana" checked />
+          <label for="hiragana">Hiragana</label>
+          <input type="radio" id="romaji" name="answer" value="romaji" />
+          <label for="romaji">Romaji</label>
+          <input type="radio" id="both" name="answer" value="both" />
+          <label for="both">Both</label>
         </div>
       </form>
     </div>
