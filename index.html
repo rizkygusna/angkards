@@ -22,13 +22,26 @@
         <div class="main-form col-md-8 col-lg-6 bg-light mx-auto">
           <form action="/cards.html" method="get" id="options-form">
             <p>Range of number</p>
-            <div>
-              <input type="radio" name="five" id="five" value="5" checked />
-              <label for="five">1-5</label>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="range"
+                id="five"
+                value="5"
+                checked
+              />
+              <label class="form-check-label" for="five">1-5</label>
             </div>
-            <div>
-              <input type="radio" name="ten" id="ten" value="10" />
-              <label for="ten">1-10</label>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="range"
+                id="ten"
+                value="10"
+              />
+              <label class="form-check-label" for="ten">1-10</label>
             </div>
             <div>
               <label for="amount">Amount of cards</label>
