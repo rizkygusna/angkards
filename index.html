@@ -20,7 +20,12 @@
     <main class="container">
       <div class="row mx-2">
         <div class="main-form col-md-8 col-lg-6 bg-light mx-auto p-5">
-          <form action="/cards.html" method="get" id="options-form">
+          <form
+            action="/cards.html"
+            class="row align-items-center gy-2 gx-3"
+            method="get"
+            id="options-form"
+          >
             <p>Range of number</p>
             <div class="form-check">
               <input
@@ -56,7 +61,9 @@
               <input type="radio" id="both" name="answer" value="both" />
               <label for="both">Both</label>
             </div>
-            <button type="submit">Start</button>
+            <div class="col text-center">
+              <button type="submit" class="btn btn-outline-primary px-3">Start</button>
+            </div>
           </form>
         </div>
       </div>
