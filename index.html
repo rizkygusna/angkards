@@ -50,19 +50,47 @@
                 <label class="form-check-label" for="ten">1-10</label>
               </div>
             </fieldset>
-            <div>
-              <label for="amount">Amount of cards:</label>
+            <fieldset>
+              <legend>
+                <label for="amount">Amount of cards</label>
+              </legend>
               <input type="number" name="amount" id="amount" min="5" max="50" value="5" />
-            </div>
-            <p>Answer types</p>
-            <div>
-              <input type="radio" id="hiragana" name="answer" value="hiragana" checked />
-              <label for="hiragana">Hiragana</label>
-              <input type="radio" id="romaji" name="answer" value="romaji" />
-              <label for="romaji">Romaji</label>
-              <input type="radio" id="both" name="answer" value="both" />
-              <label for="both">Both</label>
-            </div>
+            </fieldset>
+            <fieldset>
+              <legend>Answer types</legend>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="hiragana"
+                  name="answer"
+                  value="hiragana"
+                  checked
+                />
+                <label class="form-check-label" for="hiragana">Hiragana</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="romaji"
+                  name="answer"
+                  value="romaji"
+                />
+                <label class="form-check-label" for="romaji">Romaji</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="both"
+                  name="answer"
+                  value="both"
+                />
+                <label class="form-check-label" for="both">Both</label>
+              </div>
+            </fieldset>
+
             <div class="col text-center">
               <button type="submit" class="btn btn-outline-primary px-3">Start</button>
             </div>
