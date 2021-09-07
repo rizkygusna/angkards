@@ -11,6 +11,12 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+
+    <style>
+      .form-shadow {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+    </style>
     <title>Angkards</title>
   </head>
   <body>
@@ -19,7 +25,7 @@
     </header>
     <main class="container">
       <div class="row mx-2">
-        <div class="main-form col-md-8 col-lg-6 bg-light mx-auto p-5">
+        <div class="main-form form-shadow col-md-8 col-lg-6 bg-light mx-auto p-5 rounded">
           <form
             action="/cards.html"
             class="row align-items-center gy-2 gx-3"
@@ -90,9 +96,10 @@
                 <label class="form-check-label" for="both">Both</label>
               </div>
             </fieldset>
-
-            <div class="col text-center">
-              <button type="submit" class="btn btn-outline-primary px-3">Start</button>
+            <div class="text-center">
+              <button type="submit" class="btn btn-outline-primary btn-lg px-3">
+                Start
+              </button>
             </div>
           </form>
         </div>
