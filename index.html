@@ -26,30 +26,32 @@
             method="get"
             id="options-form"
           >
-            <p>Range of number</p>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="range"
-                id="five"
-                value="5"
-                checked
-              />
-              <label class="form-check-label" for="five">1-5</label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="range"
-                id="ten"
-                value="10"
-              />
-              <label class="form-check-label" for="ten">1-10</label>
-            </div>
+            <fieldset>
+              <legend>Range of Number</legend>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="range"
+                  id="five"
+                  value="5"
+                  checked
+                />
+                <label class="form-check-label" for="five">1-5</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="range"
+                  id="ten"
+                  value="10"
+                />
+                <label class="form-check-label" for="ten">1-10</label>
+              </div>
+            </fieldset>
             <div>
-              <label for="amount">Amount of cards</label>
+              <label for="amount">Amount of cards:</label>
               <input type="number" name="amount" id="amount" min="5" max="50" value="5" />
             </div>
             <p>Answer types</p>
