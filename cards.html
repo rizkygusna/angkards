@@ -12,8 +12,12 @@
       crossorigin="anonymous"
     />
     <style>
-      .form-shadow {
+      .card-shadow {
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      /* review the selector */
+      div.card > span {
+        display: block;
       }
     </style>
     <title>Angkards | Exercise</title>
@@ -25,8 +29,25 @@
     <main class="container">
       <div class="row mx-2">
         <div
-          class="main-form form-shadow col-md-8 col-lg-6 bg-light mx-auto p-5 rounded"
-        ></div>
+          class="
+            card card-shadow
+            col-md-8 col-lg-6
+            bg-light
+            mx-auto
+            p-5
+            rounded
+            text-center
+          "
+        >
+          <span class="number display-1 fw-bold" style="font-size: 10rem">6</span>
+          <hr />
+          <span class="hiragana display-5 my-2">ろく</span>
+          <span class="romaji display-5 mb-2">roku</span>
+          <div class="card-buttons mt-5">
+            <button type="button" class="btn btn-outline-primary mx-2">Fail</button>
+            <button type="button" class="btn btn-primary mx-2">Pass</button>
+          </div>
+        </div>
       </div>
     </main>
     <script src="./app.js"></script>
