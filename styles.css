@@ -1,0 +1,38 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: hsla(208, 100%, 43%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(208, 100%, 43%, 1) 16%,
+    hsla(208, 74%, 62%, 1) 64%,
+    hsla(207, 73%, 81%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(208, 100%, 43%, 1) 16%,
+    hsla(208, 74%, 62%, 1) 64%,
+    hsla(207, 73%, 81%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(208, 100%, 43%, 1) 16%,
+    hsla(208, 74%, 62%, 1) 64%,
+    hsla(207, 73%, 81%, 1) 100%
+  );
+
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0074D9", endColorstr="#55A2E6", GradientType=1 );
+}
+.card {
+  border-radius: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
