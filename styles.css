@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:ital,wght@0,500;1,400&family=Poppins:wght@400;500&display=swap');
+
 html,
 body {
   min-height: 100%;
@@ -30,6 +32,9 @@ body {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0074d9", endColorstr="#55a2e6", GradientType=1 );
 }
 h1.display-2 {
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
 .card {
