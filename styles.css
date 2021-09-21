@@ -37,7 +37,28 @@ h1.display-2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
+button.btn {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
 .card {
   border-radius: 1.5rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+div.back > span {
+  display: block;
+}
+
+.front {
+  margin-top: 9rem;
+}
+
+.hiragana,
+.romaji {
+  font-size: 2em;
+}
+
+.hidden {
+  display: none;
 }

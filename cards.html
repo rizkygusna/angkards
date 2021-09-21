@@ -12,15 +12,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
-    <style>
-      div.card > span {
-        display: block;
-      }
-      button.btn {
-        padding-right: 1rem;
-        padding-left: 1rem;
-      }
-    </style>
     <title>Angkards | Exercise</title>
   </head>
   <body>
@@ -31,11 +22,18 @@
       <div class="row mx-2">
         <div class="card col-md-8 col-lg-6 bg-light mx-auto p-5 text-center">
           <span class="number display-1 fw-bold" style="font-size: 10rem">6</span>
-          <span class="hiragana display-5 my-2">ろく</span>
-          <span class="romaji display-5 mb-2">roku</span>
-          <div class="card-buttons mt-5">
-            <button type="button" class="btn btn-outline-primary mx-2">Fail</button>
-            <button type="button" class="btn btn-primary mx-2">Pass</button>
+          <div class="front">
+            <button type="button" class="btn btn-outline-primary mx-2">
+              Show Answer
+            </button>
+          </div>
+          <div class="back hidden">
+            <span class="hiragana display-5 my-2">ろく</span>
+            <span class="romaji display-5 mb-2">roku</span>
+            <div class="card-buttons mt-5">
+              <button type="button" class="btn btn-outline-primary mx-2">Fail</button>
+              <button type="button" class="btn btn-primary mx-2">Pass</button>
+            </div>
           </div>
         </div>
       </div>
