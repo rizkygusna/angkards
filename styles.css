@@ -62,3 +62,11 @@ div.back > span {
 .hidden {
   display: none;
 }
+
+#progressNum {
+  position: absolute;
+  right: 2em;
+  top: 2em;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
