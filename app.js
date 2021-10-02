@@ -1,10 +1,15 @@
 const form = document.querySelector('#optionsForm');
-form.addEventListener('submit', (e) => {
-  // e.preventDefault();
-  const rangeNumber = form.elements.range.value;
-  const cardAmount = form.elements.amount.value;
-  const answerType = form.elements.answer.value;
-});
+const showBtn = document.querySelector('#showBtn');
+
+// get form input to variables
+// form.addEventListener('submit', (e) => {
+//   // e.preventDefault();
+//   const rangeNumber = form.elements.range.value;
+//   const cardAmount = form.elements.amount.value;
+//   const answerType = form.elements.answer.value;
+//   console.log({rangeNumber, cardAmount, answerType})
+//   // e.stopPropagation(); //stop event bubbling
+// });
 
 function toggleCardState() {
   //toggle .front
@@ -14,3 +19,7 @@ function toggleCardState() {
   const backCard = document.querySelector('div.back');
   backCard.classList.toggle('hidden');
 }
+
+showBtn.addEventListener('click', () => {
+  toggleCardState();
+});
